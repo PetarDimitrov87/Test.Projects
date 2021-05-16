@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidUsernames", "ValidUser
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopNumber", "TopNumber\TopNumber.csproj", "{D3D104D5-C0B7-48BA-B11F-25F7A3014E5D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConvert", "TimeConvert\TimeConvert.csproj", "{E8DD5F2A-5753-417C-AB50-D70E7B31B8E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{D3D104D5-C0B7-48BA-B11F-25F7A3014E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3D104D5-C0B7-48BA-B11F-25F7A3014E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3D104D5-C0B7-48BA-B11F-25F7A3014E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DD5F2A-5753-417C-AB50-D70E7B31B8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DD5F2A-5753-417C-AB50-D70E7B31B8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DD5F2A-5753-417C-AB50-D70E7B31B8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DD5F2A-5753-417C-AB50-D70E7B31B8E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
