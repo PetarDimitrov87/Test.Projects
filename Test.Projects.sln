@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders", "Orders\Orders.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fund2021FinalExam3", "Fund2021FinalExam3\Fund2021FinalExam3.csproj", "{BDC8A361-0904-4EFA-8427-C4DBD280543E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Articles", "Articles\Articles.csproj", "{CC3A882B-5A5B-43F8-91CF-2B177637FCE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{BDC8A361-0904-4EFA-8427-C4DBD280543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDC8A361-0904-4EFA-8427-C4DBD280543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDC8A361-0904-4EFA-8427-C4DBD280543E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3A882B-5A5B-43F8-91CF-2B177637FCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3A882B-5A5B-43F8-91CF-2B177637FCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3A882B-5A5B-43F8-91CF-2B177637FCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3A882B-5A5B-43F8-91CF-2B177637FCE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
