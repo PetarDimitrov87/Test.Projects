@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Race", "Race\Race.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordValidator", "PasswordValidator\PasswordValidator.csproj", "{AAB7F110-5516-4C78-B80A-263A51863C75}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeIntegers", "PalindromeIntegers\PalindromeIntegers.csproj", "{AA0EA867-2488-4CED-A838-60391E631F40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{AAB7F110-5516-4C78-B80A-263A51863C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAB7F110-5516-4C78-B80A-263A51863C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAB7F110-5516-4C78-B80A-263A51863C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0EA867-2488-4CED-A838-60391E631F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0EA867-2488-4CED-A838-60391E631F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0EA867-2488-4CED-A838-60391E631F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0EA867-2488-4CED-A838-60391E631F40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
