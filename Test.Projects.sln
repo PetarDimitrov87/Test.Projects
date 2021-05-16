@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayRotation", "ArrayRotat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fund2021FinalExam2", "Fund2021FinalExam2\Fund2021FinalExam2.csproj", "{51411CFE-E397-4243-A8F1-97F8DD312050}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fund2021FinalExam1", "Fund2021FinalExam1\Fund2021FinalExam1.csproj", "{CB8ECE66-E65B-402A-81A8-711443CF2786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{51411CFE-E397-4243-A8F1-97F8DD312050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51411CFE-E397-4243-A8F1-97F8DD312050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51411CFE-E397-4243-A8F1-97F8DD312050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8ECE66-E65B-402A-81A8-711443CF2786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8ECE66-E65B-402A-81A8-711443CF2786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8ECE66-E65B-402A-81A8-711443CF2786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8ECE66-E65B-402A-81A8-711443CF2786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
