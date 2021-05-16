@@ -61,6 +61,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleCatalogue", "Vehicle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderByAge", "OrderByAge\OrderByAge.csproj", "{A9EEE579-A472-4D6D-88BC-D5A2474D8979}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snowballs", "Snowballs\Snowballs.csproj", "{9920110F-0AA5-4D2D-BB9A-172EF8021604}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{A9EEE579-A472-4D6D-88BC-D5A2474D8979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9EEE579-A472-4D6D-88BC-D5A2474D8979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9EEE579-A472-4D6D-88BC-D5A2474D8979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9920110F-0AA5-4D2D-BB9A-172EF8021604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9920110F-0AA5-4D2D-BB9A-172EF8021604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9920110F-0AA5-4D2D-BB9A-172EF8021604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9920110F-0AA5-4D2D-BB9A-172EF8021604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
