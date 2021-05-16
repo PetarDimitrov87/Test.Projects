@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopNumber", "TopNumber\TopN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConvert", "TimeConvert\TimeConvert.csproj", "{E8DD5F2A-5753-417C-AB50-D70E7B31B8E0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAcademy", "StudentAcademy\StudentAcademy.csproj", "{954D8CB4-F9D6-41D0-B7F6-CDD17D0F3EA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{E8DD5F2A-5753-417C-AB50-D70E7B31B8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8DD5F2A-5753-417C-AB50-D70E7B31B8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8DD5F2A-5753-417C-AB50-D70E7B31B8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954D8CB4-F9D6-41D0-B7F6-CDD17D0F3EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954D8CB4-F9D6-41D0-B7F6-CDD17D0F3EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954D8CB4-F9D6-41D0-B7F6-CDD17D0F3EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954D8CB4-F9D6-41D0-B7F6-CDD17D0F3EA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
