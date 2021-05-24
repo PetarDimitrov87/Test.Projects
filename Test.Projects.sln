@@ -77,6 +77,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopIntegers", "TopIntegers\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharactersInRange", "CharactersInRange\CharactersInRange.csproj", "{C2206208-0201-44B4-995E-0DA266507749}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddleCharacters", "MiddleCharacters\MiddleCharacters.csproj", "{311248AF-DE74-4BF4-A639-575C3A6A7FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{C2206208-0201-44B4-995E-0DA266507749}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2206208-0201-44B4-995E-0DA266507749}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2206208-0201-44B4-995E-0DA266507749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311248AF-DE74-4BF4-A639-575C3A6A7FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311248AF-DE74-4BF4-A639-575C3A6A7FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311248AF-DE74-4BF4-A639-575C3A6A7FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311248AF-DE74-4BF4-A639-575C3A6A7FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
