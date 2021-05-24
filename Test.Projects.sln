@@ -69,6 +69,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LadyBugs", "LadyBugs\LadyBugs.csproj", "{3F2B1D7A-9C5A-4CB2-BF18-3755B523BBAF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaminoFactory", "KaminoFactory\KaminoFactory.csproj", "{56F3276B-0575-4B34-83A9-C78564E44168}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{3F2B1D7A-9C5A-4CB2-BF18-3755B523BBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F2B1D7A-9C5A-4CB2-BF18-3755B523BBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F2B1D7A-9C5A-4CB2-BF18-3755B523BBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F3276B-0575-4B34-83A9-C78564E44168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F3276B-0575-4B34-83A9-C78564E44168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F3276B-0575-4B34-83A9-C78564E44168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F3276B-0575-4B34-83A9-C78564E44168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
