@@ -71,6 +71,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LadyBugs", "LadyBugs\LadyBu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaminoFactory", "KaminoFactory\KaminoFactory.csproj", "{56F3276B-0575-4B34-83A9-C78564E44168}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualSum", "EqualSum\EqualSum.csproj", "{F7BA838D-FD61-4699-9968-F24FDF80DE26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{56F3276B-0575-4B34-83A9-C78564E44168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56F3276B-0575-4B34-83A9-C78564E44168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56F3276B-0575-4B34-83A9-C78564E44168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BA838D-FD61-4699-9968-F24FDF80DE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BA838D-FD61-4699-9968-F24FDF80DE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BA838D-FD61-4699-9968-F24FDF80DE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BA838D-FD61-4699-9968-F24FDF80DE26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
