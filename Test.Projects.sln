@@ -83,6 +83,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Train", "Train\Train.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeList", "ChangeList\ChangeList.csproj", "{896852DD-E6D6-4A69-B93D-BB435F962ACB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseParty", "HouseParty\HouseParty.csproj", "{C01E30CB-9D5E-4DEF-9834-412426E1DC2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,10 @@ Global
 		{896852DD-E6D6-4A69-B93D-BB435F962ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{896852DD-E6D6-4A69-B93D-BB435F962ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{896852DD-E6D6-4A69-B93D-BB435F962ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01E30CB-9D5E-4DEF-9834-412426E1DC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01E30CB-9D5E-4DEF-9834-412426E1DC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01E30CB-9D5E-4DEF-9834-412426E1DC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01E30CB-9D5E-4DEF-9834-412426E1DC2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
