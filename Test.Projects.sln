@@ -89,6 +89,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListOperations", "ListOpera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppendArrays", "AppendArrays\AppendArrays.csproj", "{CF1CB1BE-F37B-4A71-8887-AC11BD9F3A06}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid.Expression", "Valid.Expression\Valid.Expression.csproj", "{E8A57069-F4D5-4779-9274-DDCF46AB548B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{CF1CB1BE-F37B-4A71-8887-AC11BD9F3A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF1CB1BE-F37B-4A71-8887-AC11BD9F3A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF1CB1BE-F37B-4A71-8887-AC11BD9F3A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A57069-F4D5-4779-9274-DDCF46AB548B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A57069-F4D5-4779-9274-DDCF46AB548B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A57069-F4D5-4779-9274-DDCF46AB548B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A57069-F4D5-4779-9274-DDCF46AB548B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
