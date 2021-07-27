@@ -91,6 +91,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppendArrays", "AppendArray
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid.Expression", "Valid.Expression\Valid.Expression.csproj", "{E8A57069-F4D5-4779-9274-DDCF46AB548B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First.NonRepeating.Character", "..\First.NonRepeating.Character\First.NonRepeating.Character\First.NonRepeating.Character.csproj", "{63C98647-2436-4C3C-A464-56B500CD061D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{E8A57069-F4D5-4779-9274-DDCF46AB548B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8A57069-F4D5-4779-9274-DDCF46AB548B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8A57069-F4D5-4779-9274-DDCF46AB548B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C98647-2436-4C3C-A464-56B500CD061D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C98647-2436-4C3C-A464-56B500CD061D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C98647-2436-4C3C-A464-56B500CD061D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C98647-2436-4C3C-A464-56B500CD061D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
