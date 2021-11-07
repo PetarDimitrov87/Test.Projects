@@ -95,6 +95,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First.NonRepeating.Characte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "..\Person\Person\Person.csproj", "{96A0CC27-7ED0-42AA-A232-A93A2A716EA0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeedForSpeed", "..\Need.For.Speed\Need.For.Speed\NeedForSpeed.csproj", "{BD7D8F3A-7CB4-4C19-8BFE-E70DDA2F450E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{96A0CC27-7ED0-42AA-A232-A93A2A716EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96A0CC27-7ED0-42AA-A232-A93A2A716EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96A0CC27-7ED0-42AA-A232-A93A2A716EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7D8F3A-7CB4-4C19-8BFE-E70DDA2F450E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7D8F3A-7CB4-4C19-8BFE-E70DDA2F450E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7D8F3A-7CB4-4C19-8BFE-E70DDA2F450E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7D8F3A-7CB4-4C19-8BFE-E70DDA2F450E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
