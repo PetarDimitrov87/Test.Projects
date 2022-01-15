@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31229.75
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Project1", "Test.Project1\Test.Project1.csproj", "{ED0370EA-EB49-4998-BE99-A93047801B77}"
 EndProject
@@ -116,6 +116,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Spree", "Shopping.Spree\Shopping.Spree.csproj", "{A8DC92A4-2263-4ECF-8337-C41D73942E13}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.Team.Generator", "Football.Team.Generator\Football.Team.Generator.csproj", "{62E64F80-1225-48FC-84C1-F23222562F79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOcean.AcademyTask", "DevOcean.AcademyTask\DevOcean.AcademyTask.csproj", "{3A3664EF-1FBC-4841-8DED-43EE59C12851}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -351,6 +353,10 @@ Global
 		{62E64F80-1225-48FC-84C1-F23222562F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62E64F80-1225-48FC-84C1-F23222562F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62E64F80-1225-48FC-84C1-F23222562F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3664EF-1FBC-4841-8DED-43EE59C12851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3664EF-1FBC-4841-8DED-43EE59C12851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3664EF-1FBC-4841-8DED-43EE59C12851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3664EF-1FBC-4841-8DED-43EE59C12851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
