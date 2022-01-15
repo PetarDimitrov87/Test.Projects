@@ -7,6 +7,7 @@ public static class Program
         Console.WriteLine("Hello, World!");
 
         var a = 5;
+        var b = 10;
     }
 
 }
