@@ -5,6 +5,12 @@
         public static void GetReceipt(List<Product> cart, DateTime dateAndTimeOfPurchase)
         {
             double subtotal = 0;
+
+            foreach (var product in cart)
+            {
+                subtotal += product.Price * product.Quantity;
+            }
+
             double totalDiscount = 0;
             double total = subtotal - totalDiscount;
 
