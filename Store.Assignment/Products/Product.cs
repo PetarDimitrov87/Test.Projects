@@ -14,5 +14,10 @@
         public string Brand { get; private set; }
 
         public double Price { get; private set; }
+
+        public virtual double GetPriceAt(DateTime dateTime)
+        {
+            return Price;
+        }
     }
 }
