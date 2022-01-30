@@ -14,7 +14,12 @@
         {
             int days = DateUtils.GetDaysBetween(dateTime, ExpirationDate);
 
-            if (days <= 0)
+            if (days < 0)
+            {
+                throw new ArgumentException($"Product {Name} is expired. Please return it.");
+            }
+
+            if (days == 0)
             {
                 return 0.5 * Price;
             }
