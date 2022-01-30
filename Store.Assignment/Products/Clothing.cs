@@ -4,7 +4,7 @@ namespace Store.Assignment
 {
     public class Clothing : Product
     {
-        public Clothing(string name, string brand, double price, int quantity, Size size, Color color) 
+        public Clothing(string name, string brand, double price, double quantity, Size size, Color color) 
             : base(name, brand, price, quantity)
         {
             this.Size = size;
@@ -15,7 +15,7 @@ namespace Store.Assignment
 
         public Color Color { get; private set; }
 
-        public override double GetPriceAt(DateTime dateTime)
+        public override double GetPriceOn(DateTime dateTime)
         {
             if (!DateUtils.IsWeekend(dateTime))
             {

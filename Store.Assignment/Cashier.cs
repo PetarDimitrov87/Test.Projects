@@ -16,7 +16,7 @@
             {
                 subtotal += product.Quantity * product.Price;
 
-                var price = product.GetPriceAt(dateAndTimeOfPurchase);
+                var price = product.GetPriceOn(dateAndTimeOfPurchase);
                 total += product.Quantity * price;
 
                 Console.WriteLine($"{product.Name} - {product.Brand}");

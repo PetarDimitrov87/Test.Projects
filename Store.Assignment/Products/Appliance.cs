@@ -2,7 +2,7 @@
 {
     public class Appliance : Product
     {
-        public Appliance(string name, string brand, double price, int quantity, string model, DateTime productionDate, double weight) 
+        public Appliance(string name, string brand, double price, double quantity, string model, DateTime productionDate, double weight) 
             : base(name, brand, price, quantity)
         {
             this.Model = model;
@@ -16,7 +16,7 @@
 
         public double Weight { get; private set; }
 
-        public override double GetPriceAt(DateTime dateTime)
+        public override double GetPriceOn(DateTime dateTime)
         {
             if (DateUtils.IsWeekend(dateTime) && Price > 999)
             {

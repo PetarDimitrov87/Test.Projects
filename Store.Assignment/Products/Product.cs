@@ -2,8 +2,18 @@
 {
     public abstract class Product
     {
-        public Product(string name, string brand, double price, int quantity)
+        public Product(string name, string brand, double price, double quantity)
         {
+            if (price <= 0)
+            {
+                throw new ArgumentException("Price cannot be 0 or negative.");
+            }
+
+            if (quantity <= 0)
+            {
+                throw new ArgumentException("Quantity cannot be 0 or negative.");
+            }
+
             this.Name = name;
             this.Brand = brand;
             this.Price = price;
@@ -16,9 +26,9 @@
 
         public double Price { get; private set; }
 
-        public int Quantity { get; private set; }
+        public double Quantity { get; private set; }
 
-        public virtual double GetPriceAt(DateTime dateTime)
+        public virtual double GetPriceOn(DateTime dateTime)
         {
             return Price;
         }

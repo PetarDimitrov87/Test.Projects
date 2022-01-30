@@ -2,7 +2,7 @@
 {
     public class PerishableProduct : Product
     {
-        public PerishableProduct(string name, string brand, double price, int quantity, DateTime expirationDate) 
+        public PerishableProduct(string name, string brand, double price, double quantity, DateTime expirationDate) 
             : base(name, brand, price, quantity)
         {
             this.ExpirationDate = expirationDate;
@@ -10,7 +10,7 @@
 
         public DateTime ExpirationDate { get; private set; }
 
-        public override double GetPriceAt(DateTime dateTime)
+        public override double GetPriceOn(DateTime dateTime)
         {
             int days = DateUtils.GetDaysBetween(dateTime, ExpirationDate);
 
