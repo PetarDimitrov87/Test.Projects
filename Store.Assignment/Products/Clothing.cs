@@ -14,5 +14,15 @@ namespace Store.Assignment
         public Size Size { get; private set; }
 
         public Color Color { get; private set; }
+
+        public override double GetPriceAt(DateTime dateTime)
+        {
+            if (!DateUtils.IsWeekend(dateTime))
+            {
+                return 0.9 * Price;
+            }
+
+            return Price;
+        }
     }
 }

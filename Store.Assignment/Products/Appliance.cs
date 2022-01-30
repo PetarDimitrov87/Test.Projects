@@ -15,5 +15,15 @@
         public DateTime ProductionDate { get; private set; }
 
         public double Weight { get; private set; }
+
+        public override double GetPriceAt(DateTime dateTime)
+        {
+            if (DateUtils.IsWeekend(dateTime) && Price > 999)
+            {
+                return 0.95 * Price;
+            }
+
+            return Price;
+        }
     }
 }

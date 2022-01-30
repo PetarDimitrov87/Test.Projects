@@ -8,5 +8,10 @@
 
             return timeSpan.Days;
         }
+
+        public static bool IsWeekend(DateTime dateTime)
+        {
+            return dateTime.DayOfWeek == DayOfWeek.Saturday || dateTime.DayOfWeek == DayOfWeek.Sunday;
+        }
     }
 }

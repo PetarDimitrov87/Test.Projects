@@ -12,8 +12,7 @@
 
         public override double GetPriceAt(DateTime dateTime)
         {
-            int days = DateUtils.GetDaysBetween(dateTime, ExpirationDate
-                );
+            int days = DateUtils.GetDaysBetween(dateTime, ExpirationDate);
 
             if (days <= 0)
             {
