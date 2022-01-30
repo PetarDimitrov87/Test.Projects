@@ -2,9 +2,9 @@
 {
     public static class Cashier
     {
-        public static void GetReceipt(List<Product> cart, DateTime dateAndTimeOfPurchase)
+        public static void GetReceipt(List<Product> cart, DateTime purchaseDate)
         {                                  
-            Console.WriteLine($"Date: {dateAndTimeOfPurchase}");
+            Console.WriteLine($"Date: {purchaseDate}");
             Console.WriteLine("---Products---");
             Console.WriteLine();
             Console.WriteLine();
@@ -16,7 +16,7 @@
             {
                 subtotal += product.Quantity * product.Price;
 
-                var price = product.GetPriceOn(dateAndTimeOfPurchase);
+                var price = product.GetPriceOn(purchaseDate);
                 total += product.Quantity * price;
 
                 Console.WriteLine($"{product.Name} - {product.Brand}");
