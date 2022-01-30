@@ -8,7 +8,7 @@
             this.ExpirationDate = expirationDate;
         }
 
-        public DateTime ExpirationDate { get; set; }
+        public DateTime ExpirationDate { get; private set; }
 
     }
 }

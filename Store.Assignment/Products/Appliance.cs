@@ -10,10 +10,10 @@
             this.Weight = weight;
         }
 
-        public string Model { get; set; }
+        public string Model { get; private set; }
 
-        public DateTime ProductionDate { get; set; }
+        public DateTime ProductionDate { get; private set; }
 
-        public double Weight { get; set; }
+        public double Weight { get; private set; }
     }
 }
