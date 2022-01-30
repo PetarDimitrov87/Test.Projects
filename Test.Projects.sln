@@ -119,6 +119,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.Team.Generator", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOcean.AcademyTask", "DevOcean.AcademyTask\DevOcean.AcademyTask.csproj", "{3A3664EF-1FBC-4841-8DED-43EE59C12851}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Assignment", "Store.Assignment\Store.Assignment.csproj", "{9C7D9F94-FC0A-4200-A627-C3A24D58B809}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -357,6 +359,10 @@ Global
 		{3A3664EF-1FBC-4841-8DED-43EE59C12851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A3664EF-1FBC-4841-8DED-43EE59C12851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A3664EF-1FBC-4841-8DED-43EE59C12851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7D9F94-FC0A-4200-A627-C3A24D58B809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7D9F94-FC0A-4200-A627-C3A24D58B809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7D9F94-FC0A-4200-A627-C3A24D58B809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7D9F94-FC0A-4200-A627-C3A24D58B809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
