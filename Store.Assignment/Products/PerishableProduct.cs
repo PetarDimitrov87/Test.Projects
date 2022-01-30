@@ -10,5 +10,22 @@
 
         public DateTime ExpirationDate { get; private set; }
 
+        public override double GetPriceAt(DateTime dateTime)
+        {
+            int days = DateUtils.GetDaysBetween(dateTime, ExpirationDate
+                );
+
+            if (days <= 0)
+            {
+                return 0.5 * Price;
+            }
+
+            if (days <= 5)
+            {
+                return 0.9 * Price;
+            }
+
+            return Price;
+        }
     }
 }
