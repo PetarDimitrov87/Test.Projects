@@ -15,6 +15,7 @@ class Program
         Console.WriteLine(result);
 
         Console.WriteLine();
+        Console.WriteLine();
 
         var test = DateUtils.GetDaysBetween(new DateTime(2022, 1, 29, 22, 0, 0), new DateTime(2022, 1, 30, 1, 0, 0));
         Console.WriteLine(test);
@@ -27,7 +28,7 @@ class Program
         var beverage = new Beverage("milk", "BrandM", 0.99, new DateTime(2022, 2, 2));
         products.Add(beverage, 3);
 
-        var clothing = new Clothing("T-shirt", "BrandT", 15.99, Size.M, "violet");
+        var clothing = new Clothing("T-shirt", "BrandT", 15.99, Size.M, System.Drawing.Color.Violet);
         products.Add(clothing, 2);
 
         var appliances = new Appliance("laptop", "BrandL", 2345, "ModelL", new DateTime(2021, 3, 3), 1.125);
