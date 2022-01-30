@@ -2,7 +2,8 @@
 {
     public class Appliance : Product
     {
-        public Appliance(string name, string brand, double price, string model, DateTime productionDate, double weight) : base(name, brand, price)
+        public Appliance(string name, string brand, double price, string model, DateTime productionDate, double weight) 
+            : base(name, brand, price)
         {
             this.Model = model;
             this.ProductionDate = productionDate;
