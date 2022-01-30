@@ -2,8 +2,8 @@
 {
     public class PerishableProduct : Product
     {
-        public PerishableProduct(string name, string brand, double price, DateTime expirationDate) 
-            : base(name, brand, price)
+        public PerishableProduct(string name, string brand, double price, int quantity, DateTime expirationDate) 
+            : base(name, brand, price, quantity)
         {
             this.ExpirationDate = expirationDate;
         }

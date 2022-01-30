@@ -15,15 +15,10 @@
 
             foreach (var product in cart)
             {
-                var discount = 0;
-                var type = product.GetType();
-                if (type.Equals(typeof(PerishableProduct)))
-                {
-                    
-                }
+                var price = product.GetPriceAt(dateAndTimeOfPurchase);
 
                 Console.WriteLine($"{product.Name} - {product.Brand}");
-                Console.WriteLine($"{product.Quantity} * {product.Price:F2} = {product.Quantity * product.Price:F2}");
+                Console.WriteLine($"{product.Quantity} * {price:F2} = {product.Quantity * price:F2}");
             }
 
             Console.WriteLine("----------------------------");

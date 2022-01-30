@@ -2,11 +2,12 @@
 {
     public abstract class Product
     {
-        public Product(string name, string brand, double price)
+        public Product(string name, string brand, double price, int quantity)
         {
             this.Name = name;
             this.Brand = brand;
             this.Price = price;
+            this.Quantity = quantity;
         }
 
         public string Name { get; private set; }

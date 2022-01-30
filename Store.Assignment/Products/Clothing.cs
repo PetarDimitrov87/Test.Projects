@@ -4,8 +4,8 @@ namespace Store.Assignment
 {
     public class Clothing : Product
     {
-        public Clothing(string name, string brand, double price, Size size, Color color) 
-            : base(name, brand, price)
+        public Clothing(string name, string brand, double price, int quantity, Size size, Color color) 
+            : base(name, brand, price, quantity)
         {
             this.Size = size;
             this.Color = color;
