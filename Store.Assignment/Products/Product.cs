@@ -1,6 +1,6 @@
 ﻿namespace Store.Assignment
 {
-    public abstract class Product : IProduct
+    public abstract class Product
     {
         public Product(string name, string brand, double price)
         {
