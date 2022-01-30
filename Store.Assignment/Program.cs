@@ -14,6 +14,11 @@ class Program
         var result = timeSpan.Days;
         Console.WriteLine(result);
 
+        Console.WriteLine();
+
+        var test = DateUtils.GetDaysBetween(new DateTime(2022, 1, 29, 22, 0, 0), new DateTime(2022, 1, 30, 1, 0, 0));
+        Console.WriteLine(test);
+
         var products = new Dictionary<Product, double>();
 
         var food = new Food("apples", "BrandA", 1.50, new DateTime(2021, 6, 14));
