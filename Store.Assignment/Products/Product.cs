@@ -15,6 +15,8 @@
 
         public double Price { get; private set; }
 
+        public int Quantity { get; private set; }
+
         public virtual double GetPriceAt(DateTime dateTime)
         {
             return Price;

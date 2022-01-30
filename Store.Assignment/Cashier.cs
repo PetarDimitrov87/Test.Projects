@@ -2,7 +2,7 @@
 {
     public static class Cashier
     {
-        public static void GetReceipt(Dictionary<Product, double> cart, DateTime dateAndTimeOfPurchase)
+        public static void GetReceipt(List<Product> cart, DateTime dateAndTimeOfPurchase)
         {
             double subtotal = 0;
             double totalDiscount = 0;
@@ -22,8 +22,8 @@
                     
                 }
 
-                Console.WriteLine($"{product.Key.Name} - {product.Key.Brand}");
-                Console.WriteLine($"{product.Value} * {product.Key.Price:F2} = {product.Value * product.Key.Price:F2}");
+                Console.WriteLine($"{product.Name} - {product.Brand}");
+                Console.WriteLine($"{product.Quantity} * {product.Price:F2} = {product.Quantity * product.Price:F2}");
             }
 
             Console.WriteLine("----------------------------");
