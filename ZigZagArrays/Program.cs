@@ -25,7 +25,7 @@ namespace ZigZagArrays
                 if (i % 2 == 0)
                 {
                     firstArr[i] = firstNumber;
-                    secondArr[i] =secondNumber;
+                    secondArr[i] = secondNumber;
                 }
                 else
                 {
